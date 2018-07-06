@@ -1,17 +1,23 @@
 .container {
   background: rgba(111, 120, 238, 0.31);
 }
+
 /*Jumbotron styling*/
 .jumbotron {
   background-image: url("../images/backgrounds/landing.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 0px;
   text-align: center;
-  border-radius: 0;
   padding: 0px;
-  margin: 0px
-
+  margin: 0px;
+}
+.jumbotron p{
+  font-size: 40px;
+  color: white;
+  padding: 0px;
+  margin: 0px;
 }
 .jumbotron img{
   max-width: 100%;
@@ -20,7 +26,8 @@
 }
 
 /*Food Menu styling*/
-.row {
+
+.row_menu {
   margin-left: auto;
   margin-right: auto;
   margin-top:  none;
@@ -101,4 +108,22 @@
   opacity: 0.5;
   cursor: grabbing;
   text-decoration: underline;
+}
+
+/*Body: First body content and card images*/
+.body-content-1 {
+  margin-top: 50px;
+  background: green;
+}
+.card-with-images {
+  width: 20rem;
+  height: 15rem;
+  margin-left: 10em;
+  padding-top: 5px;
+}
+.row_img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
 }
