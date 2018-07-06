@@ -3,16 +3,21 @@
 }
 /*Jumbotron styling*/
 .jumbotron {
-  padding: 0px;
-  margin: 0px;
-}
-.jumbotron img{
-  max-width: 100%;
-  max-height: 100%;
+  background-image: url("../images/backgrounds/landing.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0px;
-  margin: 0px;
+  margin: 0px
+
+}
+.jumbotron img{
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0px;
 }
 
 /*Food Menu styling*/
@@ -51,12 +56,12 @@
   opacity: 1;
   color: white;
 }
-/*
+
 .menu-column-2:hover{
   opacity: 0.5;
   cursor: grabbing;
   text-decoration: underline;
-}*/
+}
 .breakfast {
   margin-top: 70px;
 }
@@ -72,13 +77,13 @@
 }
 .lunch {
   margin: 70px;
-}/*
+}
 .menu-column-3:hover {
   background-image: url("../images/foodtop/lunch.jpg");
   opacity: 0.5;
   cursor: grabbing;
   text-decoration: underline;
-}*/
+}
 
 /*Column 4: Dinner*/
 .menu-column-4 {
@@ -91,10 +96,10 @@
 }
 .dinner {
   margin-top: 70px;
-}/*
+}
 .menu-column-4:hover{
   background-image: url("../images/foodtop/dinner.jpg");
   opacity: 0.5;
   cursor: grabbing;
   text-decoration: underline;
-}*/
+}
