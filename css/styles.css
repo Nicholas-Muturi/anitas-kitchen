@@ -52,6 +52,14 @@
   padding: 30px;
   color: white;
 }
+.happy-hour-row:hover{
+  cursor: grabbing;
+  text-decoration: underline;
+}
+.party-time-row:hover{
+  cursor: crosshair;
+  text-decoration: underline;
+}
 
 /*Column 2: Breakfast */
 .menu-column-2 {
@@ -67,6 +75,7 @@
   opacity: 0.5;
   cursor: grabbing;
   text-decoration: underline;
+  color: black;
 }
 .breakfast {
   margin-top: 70px;
@@ -83,10 +92,12 @@
 }
 .lunch {
   margin: 70px;
+  margin-left: 50px;
 }
 .menu-column-3:hover {
   background-image: url("../images/foodtop/lunch.jpg");
   opacity: 0.5;
+  color: black;
   cursor: grabbing;
   text-decoration: underline;
 }
@@ -106,6 +117,7 @@
 .menu-column-4:hover{
   background-image: url("../images/foodtop/dinner.jpg");
   opacity: 0.5;
+  color: black;
   cursor: grabbing;
   text-decoration: underline;
 }
@@ -113,17 +125,40 @@
 /*Body: First body content and card images*/
 .body-content-1 {
   margin-top: 50px;
-  background: green;
+  background: rgb(162, 129, 240);
 }
 .card-with-images {
-  width: 20rem;
-  height: 15rem;
-  margin-left: 10em;
-  padding-top: 5px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28rem;
+  height: 22rem;
+  padding-top: 10px;
+  box-shadow: 0px 0px 10px #000000;
 }
 .row_img{
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
   max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+.row_img img{
+  object-fit: fill;
+}
+.content-1-text {
+  float: right;
+  text-align: left;
+  margin-top: 20px;
+}
+.content-1-text h2{
+  font-size: 40px;
+}
+.content-1-text h5{
+  font-size: 25px;
+}
+.content-1-text p{
+  font-size: 19px;
 }
