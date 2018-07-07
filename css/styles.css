@@ -129,14 +129,11 @@
 
 /*Body: FAST FOOD content and card images*/
 .body-content-1 {
-  margin-top: 50px;
-}
-.column-card-1{
-  text-align: right;
+  margin-top: 5em;
 }
 .card-with-food-images {
-  margin-left: auto;
   margin-right: 0px;
+  margin-left: auto;
   width: 35rem;
   padding: 10px;
   box-shadow: 0px 0px 10px #000000;
@@ -144,11 +141,12 @@
 .row_img{
   max-width: 100%;
   max-height: 100%;
-  padding: 0 5px 0 5px;
   object-fit: fill;
 }
 .row_img img{
-  text-align: center;
+  object-fit: fill;
+  margin: 0px;
+  padding: 0px;
 }
 .content-1-text {
   float: right;
@@ -180,11 +178,12 @@
 .content-1-text .arrow {
   margin-left: 10px;
 }
+
 /*End of content-1: Fast Food*/
 
 /*DRINKS content and card images*/
 .body-content-2 {
-  margin-top: 50px;
+  margin-top: 5em;
 }
 .card-with-drink-images {
   margin-left: 0px;
@@ -193,15 +192,15 @@
   padding: 10px;
   box-shadow: 0px 0px 10px #000000;
 }
-.col_img{
+.row_2_img {
+  padding: 0px;
+  margin: 0px;
+}
+.row_2_img img{
+  padding: 0px;
+  margin: 0px;
   max-width: 100%;
   max-height: 100%;
-  object-fit: fill;
-}
-.col_img img{
-  object-fit: fill;
-  margin: 0px;
-  padding: 0px;
 }
 .content-2-text {
   float: left;
