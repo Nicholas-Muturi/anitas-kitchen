@@ -131,12 +131,15 @@
 .body-content-1 {
   margin-top: 50px;
 }
-.card-with-images {
+.column-card-1{
+  text-align: right;
+}
+.card-with-food-images {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 28rem;
-  height: 22rem;
+  width: 30rem;
+  height: 24rem;
   padding-top: 10px;
   box-shadow: 0px 0px 10px #000000;
 }
@@ -151,13 +154,13 @@
 }
 .row_img img{
   object-fit: fill;
+  text-align: center;
 }
 .content-1-text {
   float: right;
   text-align: left;
   margin-top: 20px;
-  margin-right: 20rem;
-  margin-left: 10rem;
+  margin-ri: 5rem;
 }
 .content-1-text h2{
   font-size: 40px;
@@ -166,18 +169,19 @@
   font-size: 25px;
 }
 .content-1-text p{
-  font-size: 19px;
+  font-size: 17px;
 }
 .content-1-text a{
   border: 1px solid #F15A29;
   padding: 10px;
-  font-size: 19px;
+  font-size: 17px;
   box-shadow: 2px 0px 5px #F15A29;
   color: #F15A29;
 }
 .content-1-text a:hover{
   box-shadow: 5px 0px 15px #F15A29;
   color: #F15A29;
+  text-decoration: none;;
 }
 .content-1-text .arrow {
   margin-left: 10px;
@@ -185,3 +189,58 @@
 /*End of content-1: Fast Food*/
 
 /*DRINKS content and card images*/
+.body-content-2 {
+  margin-top: 50px;
+}
+.card-with-drink-images {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  height: 24rem;
+  padding-top: 10px;
+  box-shadow: 0px 0px 10px #000000;
+}
+.col_img{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+.col_img img{
+  object-fit: fill;
+  text-align: center;
+}
+.content-2-text {
+  float: right;
+  text-align: right;
+  margin-top: 20px;
+  margin-left: 5rem;
+}
+.content-2-text h2{
+  font-size: 40px;
+}
+.content-2-text h5{
+  font-size: 25px;
+}
+.content-2-text p{
+  font-size: 17px;
+}
+.content-2-text a{
+  border: 1px solid #F15A29;
+  padding: 10px;
+  font-size: 17px;
+  box-shadow: 2px 0px 5px #F15A29;
+  color: #F15A29;
+}
+.content-2-text a:hover{
+  box-shadow: 5px 0px 15px #F15A29;
+  color: #F15A29;
+  text-decoration: none;;
+}
+.content-2-text .arrow {
+  margin-left: 10px;
+}
