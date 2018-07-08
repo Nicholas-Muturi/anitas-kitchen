@@ -90,8 +90,6 @@
 
     <!--Image Slider section with tabs-->
     <div class="picture-slider-section">
-      <p>a</p>
-      <!-- BUG:[This removes the bug] Background snaps to the slider menu when 'a' is removed,doesn't remain fixed-->
       <div class="row nav-tabs">
         <div class="col-md-3 active" id="fastfood">
           <p>Fast food</p>
@@ -107,7 +105,7 @@
         </div>
       </div>
       <div class="row slider">
-        <div class="col-md-1">
+        <div class="col-md-1 arrowLeft">
           <p id="arrowLeft">&#60;</p>
         </div>
         <div class="col-md-10">
@@ -130,7 +128,6 @@
           <p id="arrowRight">&#62;</p>
         </div>
       </div>
-      <p>a</p> <!--BUG:[This removes the bug] similar to top bug: Clipping at the end of the slider not allowing the slider to be centered -->
     </div>
     <!--End of Image slider-->
 
@@ -143,15 +140,15 @@
             <h5 class="card-subtitle">George Richard</h5>
             <p class="card-body">Great food! Menu is awesome, there foods are not only great but also in the right place. I'll highly recommend them :)
               <div class="row customer-photos">
-                <div class="col-md-4">
+                <div class="col-md-3">
                   <p id="arrowLeftContacts">&#60;</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                   <img class="dormant" src="images/customers/p1.png" alt="customer 1">
                   <img class="active" src="images/customers/p2.png" alt="customer 2">
                   <img class="dormant" src="images/customers/p3.png" alt="customer 3">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                   <p id="arrowRightContacts">&#62;</p>
                 </div>
               </div>
@@ -178,20 +175,22 @@
     <!-- Footer -->
     <div class="footer">
       <div class="row business-details">
-        <div class="col-md-6 col-sm-6 footer-logo">
+        <div class="col-md-6 footer-logo">
           <img src="images/footerlogos/logo_white.png" alt="Hamburger Logo">
         </div>
-        <p class="col-md-6 col-sm-6">MENU</p>
+        <div class="col-md-6">
+          <p>MENU</p>
+        </div>
       </div>
       <p id="slogan">That's What We Are</p>
       <div class="social-media">
         <ul class="social-media">
-          <li><img src="images/footerlogos/facebook.png" alt="fb"></li>
-          <li><img src="images/footerlogos/twitter.png" alt="fb"></li>
-          <li><img src="images/footerlogos/pinterest.png" alt="fb"></li>
+          <li><a href="#"><img src="images/footerlogos/facebook.png" alt="fb"></a></li>
+          <li><a href="#"><img src="images/footerlogos/twitter.png" alt="fb"></a></li>
+          <li><a href="#"><img src="images/footerlogos/pinterest.png" alt="fb"></a></li>
         </ul>
       </div>
-      <p id="copyright">That's What We Are</p>
+      <p id="copyright">2016 Menu Restaurant</p>
     </div>
     <!-- End of footer-->
   </div>

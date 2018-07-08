@@ -1,8 +1,6 @@
 body {
-  background: black; /* TODO: Remove comment when through with project */
+  background: black;
   font-family: 'Source Serif Pro', serif;
-
-
 }
 
 .container {
@@ -33,7 +31,6 @@ body {
 }
 
 /*Food Menu styling*/
-
 .row_menu {
   margin-left: auto;
   margin-right: auto;
@@ -78,11 +75,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 1;
+  opacity: 1.0;
   color: white;
 }
 
 .menu-column-2:hover{
+  background-image: url("../images/foodtop/breakfast.jpg");
   opacity: 0.5;
   cursor: grabbing;
   text-decoration: underline;
@@ -130,7 +128,7 @@ body {
   font-size: 22px;
   margin-top: 70px;
 }
-.menu-column-4:hover{
+.menu-column-4:hover {
   background-image: url("../images/foodtop/dinner.jpg");
   opacity: 0.5;
   color: black;
@@ -257,9 +255,7 @@ body {
   background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
-}
-.picture-slider-section p{
-  margin: 0; /*BUG: This style targets the "bug removers" */
+  overflow: hidden;
 }
 .nav-tabs {
   background: rgb(221, 221, 221);
@@ -271,11 +267,12 @@ body {
   width: 70%;
 }
 .nav-tabs .col-md-3{
-  border-left: 1px solid rgba(180, 180, 180, 0.5);
+  border-left: 0.3px solid rgba(180, 180, 180, 0.5);
 }
 .nav-tabs .active{
   background: white;
   color: #F15A29;
+  border: none;
 }
 .nav-tabs p{
   margin: 10px 0;
@@ -366,7 +363,7 @@ body {
   text-align: center;
 }
 .about-menu-body {
-  border-left: 0.6px solid rgba(111, 111, 111, 0.57);
+  border-left: 0.3px solid rgba(111, 111, 111, 0.4);
  }
 /*End of customer comment + About menu section*/
 
@@ -414,10 +411,11 @@ body {
 
 /*Footer*/
 .footer {
-  padding: 2em;
+  padding-top: 50px;
+  padding-bottom: 5px;
   background: #F15A29
 }
-.business-details {
+.business-detail{
   margin: 0;
   padding: 0;
 }
@@ -437,8 +435,8 @@ body {
 }
 #slogan {
   padding: 0;
-  margin-left: 40%;
-  margin-right: 40%;;
+  margin-left: 2em;
+  margin-right: auto;
   text-align: center;
   color: white;
   font-size: 18px;
@@ -449,6 +447,12 @@ body {
 .social-media li{
   display: inline;
   list-style-type: none;
+  padding: 10px;
 }
-
+#copyright {
+  margin: 50px auto 0 2em;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
 /*End of Footer*/
