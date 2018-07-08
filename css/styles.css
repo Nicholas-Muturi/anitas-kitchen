@@ -268,7 +268,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 60%;
+  width: 70%;
 }
 .nav-tabs .col-md-3{
   border-left: 1px solid rgba(180, 180, 180, 0.5);
@@ -289,7 +289,7 @@ body {
   margin-bottom: 6em;
   padding-bottom: 10px;
   text-align: center;
-  width: 60%;
+  width: 70%;
 }
 .slider img {
   margin-left: auto;
@@ -326,13 +326,44 @@ body {
   margin: 0;
   padding: 5em;
 }
-
+.customer-review-section-card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 76%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0px 0px 10px black;
+}
+.customer-review-section h4{
+  margin-top: 10px;
+  font-weight: bold;
+  color: #F15A29;
+}
 .happy-customers {
   text-align: center;
 }
-.about-menu {
+.happy-customers .customer-photos #arrowLeftContacts {
+  text-align: right;
+  margin-right: 0px;
+  margin-top: 5px;
+  font-size: 30px;
+  color: #F15A29;
+  font-weight: bold;
+}
+.happy-customers .customer-photos #arrowRightContacts {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 5px;
+  font-size: 30px;
+  color: #F15A29;
+  font-weight: bold;
+}
+.about-us {
   text-align: center;
 }
+.about-us-body {
+  border-left: 0.6px solid rgba(111, 111, 111, 0.57);
+ }
 /*End of customer comment + About menu section*/
 
 /*Email subscription section*/
