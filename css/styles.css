@@ -350,6 +350,10 @@ body {
   color: #F15A29;
   font-weight: bold;
 }
+.happy-customers .customer-photos img {
+  margin: 0px;
+  padding: 0px;
+}
 .happy-customers .customer-photos #arrowRightContacts {
   text-align: left;
   margin-left: 0px;
@@ -372,27 +376,41 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   margin: 0;
   padding: 8em;
 }
 .subscribe-section p {
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 200;
 }
-.subscribe-form .email-input{
-  width: 50%;
-  text-align: center;
+.subscribe-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+.subscribe-form .email-input {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.email-input::placeholder{
+  color: white;
 }
 .subscribe-form .btn{
   color: white;
   background: #F15A29;
   padding: 10px 50px 10px 50px;
   font-size: 20px;
+  margin-left: 0;
+  margin-right: auto;
 }
-
+.btn:hover{
+  box-shadow: 0 0 10px #F15A29;
+  font-size: 21px;
+}
 /*End of Email subscription Section*/
 
 /*Footer*/
