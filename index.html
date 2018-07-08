@@ -91,30 +91,56 @@
     <!--Image Slider section with tabs-->
     <div class="picture-slider-section">
       <p>a</p><!-- BUG: background snaps to slider menu when 'a' is removed,doesn't remain fixed-->
-      <div class="nav nav-tabs">
-        <p class="col-md-3 active">Fast food</p>
-        <p class="col-md-3">Drinks</p>
-        <p class="col-md-3">Chicken</p>
-        <p class="col-md-3">Rice</p>
+      <div class="row nav-tabs">
+        <div class="col-md-3 active" id="fastfood">
+          <p>Fast food</p>
+        </div>
+        <div class="col-md-3" id="drinks">
+          <p>Drinks</p>
+        </div>
+        <div class="col-md-3" id="chicken">
+        <p>Chicken</p>
+        </div>
+        <div class="col-md-3" id="rice">
+          <p>Rice</p>
+        </div>
       </div>
       <div class="row slider">
         <div class="col-md-1">
-          <p>a</p>
+          <p id="arrowLeft">&#60;</p>
         </div>
         <div class="col-md-10">
-          <div class="row">
-            <img class="col-md-4" src="images/fastfood/beedBurger.jpg" alt="beef burger">
-            <img class="col-md-4" src="images/fastfood/beedBurger.jpg" alt="chicken burger">
-            <img class="col-md-4" src="images/fastfood/beedBurger.jpg" alt="chicken pizza">
+          <div class="row images">
+            <div class="col-md-4">
+              <img src="images/fastfood/beefBurger.jpg" alt="beef burger">
+              <p>Beef Burger</p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/fastfood/chickenBurger.jpg" alt="chicken burger">
+              <p>Chicken Burger</p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/fastfood/chickenPizza.jpg" alt="chicken pizza">
+              <p>Chicken Pizza</p>
+            </div>
           </div>
         </div>
         <div class="col-md-1">
-          <p>a</p>
+          <p id="arrowRight">&#62;</p>
         </div>
       </div>
-
+      <p>a</p>
     </div>
+    <!--End of Image slider-->
 
+    <!-- Customer Review section-->
+    <!-- End of Customer Review section-->
+
+    <!-- Email subscription section-->
+    <!-- End of email subscription section-->
+
+    <!-- Footer -->
+    <!-- End of footer-->
   </div>
 </body>
 

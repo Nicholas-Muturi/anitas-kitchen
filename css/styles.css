@@ -69,7 +69,7 @@ body {
   text-decoration: underline;
 }
 .party-time-row:hover{
-  cursor: crosshair;
+  cursor: grabbing;
   text-decoration: underline;
 }
 /*End of column 1*/
@@ -257,33 +257,66 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100%;
-  max-height: 100%;
   margin: 0px;
   padding: 0px;
 
 }
 .nav-tabs {
   background: rgb(221, 221, 221);
+  padding: 0;
   margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 60%;
+
+}
+.nav-tabs .col-md-3{
+  border-left: 1px solid rgba(180, 180, 180, 0.5);
+}
+.nav-tabs .active{
+  background: white;
+  color: #F15A29;
 }
 .nav-tabs p{
   margin: 10px auto;
-  padding: 0;
+  padding: 10px;
   font-size: 16px;
 }
-
 .slider {
-  background: rgb(221, 221, 221);
+  background: white;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5em;
   text-align: center;
   width: 60%;
-  height: 5em;
+}
+.slider img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 2em;
+}
+.slider p{
+  margin-top: 10px;
+  color: #F15A29;
+}
+#arrowLeft {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 105px;
+  font-size: 50px;
+  color: #F15A29;
+}
+#arrowRight {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 105px;
+  font-size: 50px;
+  color: #F15A29;
 }
 /*End of picture slider section*/
 
