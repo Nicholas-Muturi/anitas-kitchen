@@ -25,7 +25,7 @@ body {
 .jumbotron p{
   font-size: 40px;
   color: white;
-  padding: 0px;
+  padding: 0 0 2em 0;
   margin: 0px;
 }
 .jumbotron img{
@@ -193,12 +193,13 @@ body {
 .content-1-text .arrow {
   margin-left: 10px;
 }
-
 /*End of content-1: Fast Food*/
 
 /*DRINKS content and card images*/
 .body-content-2 {
   padding-top: 5em;
+  padding-bottom: 5em;
+  margin-bottom: 0px;
   background: white;
 }
 .card-with-drink-images {
@@ -248,3 +249,49 @@ body {
 .content-2-text .arrow {
   margin-left: 10px;
 }
+/*End of content-1: DRINKS*/
+
+/*Picture Slider Section*/
+.picture-slider-section {
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+.nav-tabs {
+  background: rgb(221, 221, 221);
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 60%;
+}
+.nav-tabs p{
+  margin: 10px auto;
+  padding: 0;
+  font-size: 16px;
+}
+
+.slider {
+  background: rgb(221, 221, 221);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 60%;
+  height: 5em;
+}
+/*End of picture slider section*/
+
+/*Customer comment section + About menu section*/
+/*End of customer comment + About menu section*/
+
+/*Email subscription section*/
+/*End of Email subscription Section*/
+
+/*Footer*/
+/*End of Footer*/
