@@ -1,8 +1,6 @@
 body {
   background: black; /* TODO: Remove comment when through with project */
-  font-family: 'Song Myung', serif;
-  /*font-family: 'Source Serif Pro', serif;
-  font-family: 'Yrsa', serif;*/
+  font-family: 'Source Serif Pro', serif;
 
 
 }
@@ -259,17 +257,18 @@ body {
   background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
-
+}
+.picture-slider-section p{
+  margin: 0; /*BUG: This style targets the "bug removers" */
 }
 .nav-tabs {
   background: rgb(221, 221, 221);
   padding: 0;
-  margin-top: 5em;
+  margin-top: 6em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 60%;
-
 }
 .nav-tabs .col-md-3{
   border-left: 1px solid rgba(180, 180, 180, 0.5);
@@ -287,7 +286,8 @@ body {
   background: white;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5em;
+  margin-bottom: 6em;
+  padding-bottom: 10px;
   text-align: center;
   width: 60%;
 }
@@ -307,7 +307,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 105px;
-  font-size: 50px;
+  font-size: 45px;
   color: #F15A29;
 }
 #arrowRight {
@@ -315,12 +315,24 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 105px;
-  font-size: 50px;
+  font-size: 45px;
   color: #F15A29;
 }
 /*End of picture slider section*/
 
 /*Customer comment section + About menu section*/
+.customer-review-section {
+  background: white;
+  margin: 0;
+  padding: 5em;
+}
+
+.happy-customers {
+  text-align: center;
+}
+.about-menu {
+  text-align: center;
+}
 /*End of customer comment + About menu section*/
 
 /*Email subscription section*/
