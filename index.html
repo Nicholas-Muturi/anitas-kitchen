@@ -5,8 +5,8 @@
   <title>Anita's Kitchen</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Song+Myung|Source+Serif+Pro|Yrsa" rel="stylesheet"
-  <script src="js/jquery-3.3.1.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Song+Myung|Source+Serif+Pro|Yrsa" rel="stylesheet" <script src="js/jquery-3.3.1.js">
+  </script>
   <script src="js/script.js"></script>
 </head>
 
@@ -90,7 +90,8 @@
 
     <!--Image Slider section with tabs-->
     <div class="picture-slider-section">
-      <p>a</p><!-- BUG: background snaps to slider menu when 'a' is removed,doesn't remain fixed-->
+      <p>a</p>
+      <!-- BUG:[This removes the bug] Background snaps to the slider menu when 'a' is removed,doesn't remain fixed-->
       <div class="row nav-tabs">
         <div class="col-md-3 active" id="fastfood">
           <p>Fast food</p>
@@ -99,7 +100,7 @@
           <p>Drinks</p>
         </div>
         <div class="col-md-3" id="chicken">
-        <p>Chicken</p>
+          <p>Chicken</p>
         </div>
         <div class="col-md-3" id="rice">
           <p>Rice</p>
@@ -129,7 +130,7 @@
           <p id="arrowRight">&#62;</p>
         </div>
       </div>
-      <p>a</p>
+      <p>a</p> <!--BUG:[This removes the bug] similar to top bug: Clipping at the end of the slider not allowing the slider to be centered -->
     </div>
     <!--End of Image slider-->
 
@@ -141,30 +142,37 @@
             <h4 class="card-title">Our Happy Customers</h4>
             <h5 class="card-subtitle">George Richard</h5>
             <p class="card-body">Great food! Menu is awesome, there foods are not only great but also in the right place. I'll highly recommend them :)
-            <div class="row customer-photos">
-              <div class="col-md-4">
-                <p id="arrowLeftContacts">&#60;</p>
+              <div class="row customer-photos">
+                <div class="col-md-4">
+                  <p id="arrowLeftContacts">&#60;</p>
+                </div>
+                <div class="col-md-4">
+                  <img class="dormant" src="images/customers/p1.png" alt="customer 1">
+                  <img class="active" src="images/customers/p2.png" alt="customer 2">
+                  <img class="dormant" src="images/customers/p3.png" alt="customer 3">
+                </div>
+                <div class="col-md-4">
+                  <p id="arrowRightContacts">&#62;</p>
+                </div>
               </div>
-              <div class="col-md-4">
-                <img class="dormant" src="images/customers/p1.png" alt="customer 1">
-                <img class="active" src="images/customers/p2.png" alt="customer 2">
-                <img class="dormant" src="images/customers/p3.png" alt="customer 3">
-              </div>
-              <div class="col-md-4">
-                <p id="arrowRightContacts">&#62;</p>
-              </div>
+          </div>
+          <div class="col-md-4 about-us">
+            <h4 class="card-title about-us-title">About Menu</h4>
+            <p class="card-body about-us-body"> We have a little team of 7 members. Ut wisi enim minim veniam, quis nos tredexer ci tation ullamcorper suscipit lo ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum irure dolor in.
+          </div>
         </div>
       </div>
-      <div class="col-md-4 about-us">
-        <h4 class="card-title about-us-title">About Menu</h4>
-        <p class="card-body about-us-body"> We have a little team of 7 members. Ut wisi enim minim veniam, quis nos tredexer ci tation ullamcorper suscipit lo ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum irure dolor in.
-      </div>
     </div>
-  </div>
-</div>
     <!-- End of Customer Review section-->
 
     <!-- Email subscription section-->
+    <div class="subscribe-section">
+      <p>Get our daily food items delivered to your mail</p>
+      <form class="form subscribe-form" action="">
+        <input for="email" class="form-control email-input" type="text">
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+    </div>
     <!-- End of email subscription section-->
 
     <!-- Footer -->

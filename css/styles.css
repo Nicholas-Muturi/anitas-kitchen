@@ -367,6 +367,32 @@ body {
 /*End of customer comment + About menu section*/
 
 /*Email subscription section*/
+.subscribe-section {
+  background-image: url("../images/backgrounds/subscribe.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin: 0;
+  padding: 8em;
+}
+.subscribe-section p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+}
+.subscribe-form .email-input{
+  width: 50%;
+  text-align: center;
+}
+.subscribe-form .btn{
+  color: white;
+  background: #F15A29;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+}
+
 /*End of Email subscription Section*/
 
 /*Footer*/
