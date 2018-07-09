@@ -1,34 +1,3 @@
-# Anita's Kitchen
-#### By Nicholas Muturi
-
-## Description
-This is an independent project given to me by Moringa. The aim was to recreate a professionally done website called "Anita's Kitchen" in which they(Moringa) provided the assets and the image of the end product.
-
-Here's the image of the website to be recreated:
-![Anita's Kitchen image](raw.githubusercontent.com/Nicholas-Muturi/anitas-kitchen/master/images/core.jpg)
-
-## Technologies used
-* HTML
-* CSS
-* Bootstrap
-* JQUERY / JAVASCRIPT
-* Google analytics integration
-
-## Live Demo
-https://nicholas-muturi.github.io/anitas-kitchen/
-
-## User Requirements/Setup
-* Git
-* Web browser
-* Bootstrap 4
-* Jquery 3
-
-## Contact details
-If you want to contact me to ask me about the concerned project, feel free to contact me using the following links.
-* [LinkedIn] (https://www.linkedin.com/in/nicholas-muturi)
-* [Gmail] (nicholasmuturi1@gmail.com)
-
-## License
 Copyright (c) <2018> <Nicholas Muturi>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
