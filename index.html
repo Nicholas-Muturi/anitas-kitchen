@@ -6,7 +6,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122018930-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-122018930-1');
@@ -14,7 +17,7 @@
 
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Song+Myung|Source+Serif+Pro|Yrsa" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css?family=Song+Myung|Source+Serif+Pro|Yrsa" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/script.js"></script>
@@ -22,6 +25,7 @@
 </head>
 
 <body>
+
   <div class="navigation">
     <div class="toggle" id="enable"><i class="fa fa-bars"></i></div>
     <div class="menu">
@@ -33,6 +37,7 @@
       </ul>
     </div>
   </div>
+
   <div class="container-fluid">
     <div class="jumbotron">
       <img src="images/logoBig.png" alt="Hambuger logo">
@@ -159,7 +164,7 @@
           <div class="col-md 8 happy-customers">
             <h4 class="card-title">Our Happy Customers</h4>
             <h5 class="card-subtitle">George Richard</h5>
-            <p class="card-body">Great food! Menu is awesome, there foods are not only great but also in the right place. I'll highly recommend them :)
+            <p class="card-body">Great food! Menu is awesome, there foods are not only great but also in the right place. I'll highly recommend them :)</p>
               <div class="row customer-photos">
                 <div class="col-md-3">
                   <p id="arrowLeftContacts">&#60;</p>
@@ -176,7 +181,7 @@
           </div>
           <div class="col-md-4 about-menu">
             <h4 class="card-title about-menu-title">About Menu</h4>
-            <p class="card-body about-menu-body"> We have a little team of 7 members. Ut wisi enim minim veniam, quis nos tredexer ci tation ullamcorper suscipit lo ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum irure dolor in.
+            <p class="card-body about-menu-body"> We have a little team of 7 members. Ut wisi enim minim veniam, quis nos tredexer ci tation ullamcorper suscipit lo ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum irure dolor in.</p>
           </div>
         </div>
       </div>
@@ -186,8 +191,8 @@
     <!-- Email subscription section-->
     <div class="subscribe-section">
       <p>Get our daily food items delivered to your mail</p>
-      <form class="form row subscribe-form" action="">
-        <input for="email" class="form-control col-sm-3 email-input" type="text" placeholder="Your email">
+      <form class="form row subscribe-form">
+        <input for="email" class="form-control col-sm-3 email-input" type="email" placeholder="Your email" required>
         <button class="btn col-sm-2" type="submit">Subscribe</button>
       </form>
     </div>
@@ -214,6 +219,7 @@
       <p id="copyright">2016 Menu Restaurant</p>
     </div>
     <!-- End of footer-->
+
   </div>
 </body>
 
