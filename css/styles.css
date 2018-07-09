@@ -365,7 +365,7 @@ body {
 }
 
 .navi-tabs .col-md-3{
-  border-left: 0.3px solid rgba(180, 180, 180, 0.5);
+  border-left: 0.5px solid rgba(180, 180, 180, 0.5);
 }
 
 .navi-tabs .active{
@@ -391,6 +391,11 @@ body {
 
 .navi-tabs .dormant p{
   margin:10px 0;
+}
+
+#fastfood:hover, #drinks:hover, #chicken:hover, #rice:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .slider {

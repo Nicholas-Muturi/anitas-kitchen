@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+  
   $(".subscribe-section form").submit(function(event){
     var email= $("input.email-input").val();
     alert("Thank you " +email+ " for subscribing :)");
