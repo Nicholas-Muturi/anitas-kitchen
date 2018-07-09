@@ -29,7 +29,7 @@ If you want to contact me to ask me about the concerned project, feel free to co
 * [Gmail] (nicholasmuturi1@gmail.com)
 
 ## License
-Copyright (c) <2018> <Nicholas Muturi>
+Copyright (c) <2018> **Nicholas Muturi**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
