@@ -3,12 +3,6 @@ body {
   background: black;
 }
 
-.navbar-menu-orange {
-  background: #F15A29;
-}
-.navbar-toggler-icon {
-  background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=000000');
-}
 
 /*Jumbotron styling*/
 .jumbotron {
@@ -396,6 +390,7 @@ body {
   font-weight: 200;
 }
 .subscribe-form {
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
