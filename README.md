@@ -5,7 +5,7 @@
 This is an independent project given to me by Moringa. The aim was to recreate a professionally done website called "Anita's Kitchen" in which they(Moringa) provided the assets and the image of the end product.
 
 Here's the image of the website to be recreated:
-![Anita's Kitchen image](raw.githubusercontent.com/Nicholas-Muturi/anitas-kitchen/master/images/core.jpg)
+![Anita's Kitchen image](https://github.com/Nicholas-Muturi/anitas-kitchen/blob/master/images/core.jpg)
 
 ## Technologies used
 * HTML
