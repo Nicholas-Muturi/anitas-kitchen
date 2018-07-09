@@ -343,6 +343,87 @@ body {
 }
 /*End of content-1: DRINKS*/
 
+@media screen and (max-width: 1500px) {
+  .content-1-text {
+    margin-right: 5em;
+    margin-left: 6em;
+  }
+  .content-2-text {
+    margin-right: 5em;
+    margin-left: 6em;
+  }
+
+  .card-with-food-images {
+    margin-left: 2em;
+    width: 33rem;
+    padding: 10px;
+  }
+
+  .row_img img{
+    object-fit: fill;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .card-with-drink-images {
+    margin-right: 2em;
+    width: 32rem;
+  }
+  .row_2_img img{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content-1-text {
+    margin-right: 5em;
+    margin-left: 6em;
+  }
+  .content-2-text {
+    margin-right: 5em;
+    margin-left: 6em;
+  }
+
+  .card-with-food-images {
+    margin-left: 2em;
+    width: 28rem;
+    padding: 10px;
+  }
+
+  .row_img img{
+    object-fit: fill;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .row_2_img img{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content-1-text {
+    margin-right: 2em;
+    margin-left: 6em;
+  }
+  .content-2-text {
+    margin-right: 5em;
+    margin-left: 6em;
+  }
+}
+
+
 /*Picture Slider Section*/
 .picture-slider-section {
   background-image: url("../images/backgrounds/foodsBg.jpg");
