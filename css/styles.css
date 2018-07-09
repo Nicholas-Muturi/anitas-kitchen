@@ -591,7 +591,13 @@ body {
   list-style-type: none;
   padding: 10px;
 }
-
+.social-media li i{
+  font-size: 20px;
+  color: white;
+}
+.social-media li i:hover{
+  font-size: 25px;
+}
 #copyright {
   margin: 50px auto 0 2em;
   text-align: center;
