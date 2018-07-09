@@ -3,16 +3,18 @@
 
 <head>
   <title>Anita's Kitchen</title>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/script.js"></script>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Song+Myung|Source+Serif+Pro|Yrsa" rel="stylesheet" <script src="js/jquery-3.3.1.js">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Song+Myung|Source+Serif+Pro|Yrsa" rel="stylesheet" >
+
+  </script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
   <div class="container-fluid">
+    <!--TODO: Change to container-fluid  -->
     <div class="jumbotron">
       <img src="images/logoBig.png" alt="Hambuger logo">
       <p>We Provide The Best Food<br>At The <strong>Right Price</strong></p>
@@ -90,17 +92,17 @@
 
     <!--Image Slider section with tabs-->
     <div class="picture-slider-section">
-      <div class="row nav-tabs">
+      <div class="row navi-tabs">
         <div class="col-md-3 active" id="fastfood">
-          <p>Fast food</p>
+          <p class="">Fast food</p>
         </div>
-        <div class="col-md-3" id="drinks">
+        <div class="col-md-3 dormant" id="drinks">
           <p>Drinks</p>
         </div>
-        <div class="col-md-3" id="chicken">
+        <div class="col-md-3 dormant" id="chicken">
           <p>Chicken</p>
         </div>
-        <div class="col-md-3" id="rice">
+        <div class="col-md-3 dormant" id="rice">
           <p>Rice</p>
         </div>
       </div>
@@ -165,7 +167,7 @@
     <!-- Email subscription section-->
     <div class="subscribe-section">
       <p>Get our daily food items delivered to your mail</p>
-      <form class="form row subscribe-form" >
+      <form class="form row subscribe-form" action="">
         <input for="email" class="form-control col-sm-3 email-input" type="text" placeholder="Your email">
         <button class="btn col-sm-2" type="submit">Subscribe</button>
       </form>
