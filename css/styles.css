@@ -1,20 +1,23 @@
 body {
-  /*background: black;*/
+  background: black;
   font-family: 'Source Serif Pro', serif;
 }
 
+/*Collapsing Navigation*/
 .navigation {
   position: fixed;
   top: 20px;
   left: 50px;
   z-index: 2;
 }
+
 .navigation #enable {
   text-decoration: none;
   color: black;
   font-size: 30px;
   cursor: pointer;
 }
+
 .menu {
   margin: 0;
   padding: 0;
@@ -69,6 +72,8 @@ body {
   left: 0%;
   overflow: auto;
 }
+/*End of Collapsing Navigation*/
+
 /*Jumbotron styling*/
 .jumbotron {
   background-image: url("../images/backgrounds/landing.jpg");
@@ -80,12 +85,14 @@ body {
   padding: 0px;
   margin: 0px;
 }
+
 .jumbotron p{
   font-size: 40px;
   color: white;
   padding: 0 0 2em 0;
   margin: 0px;
 }
+
 .jumbotron img{
   max-width: 100%;
   max-height: 100%;
@@ -109,12 +116,14 @@ body {
   padding: 0;
   margin:0;
 }
+
 .happy-hour-row{
   background: white;
   margin: 0px;
   padding: 30px;
   font-size: 22px;
 }
+
 .party-time-row{
   background: #F15A29;
   margin: 0px;
@@ -122,10 +131,12 @@ body {
   color: white;
   font-size: 22px;
 }
+
 .happy-hour-row:hover{
   cursor: pointer;
   text-decoration: underline;
 }
+
 .party-time-row:hover{
   cursor: pointer;
   text-decoration: underline;
@@ -164,11 +175,13 @@ body {
   opacity: 1.0;
   color: white;
 }
+
 .lunch {
   margin: 70px;
   margin-left: 50px;
   font-size: 22px;
 }
+
 .menu-column-3:hover {
   background-image: url("../images/foodtop/lunch.jpg");
   opacity: 0.5;
@@ -191,6 +204,7 @@ body {
   font-size: 22px;
   margin-top: 70px;
 }
+
 .menu-column-4:hover {
   background-image: url("../images/foodtop/dinner.jpg");
   opacity: 0.5;
@@ -205,6 +219,7 @@ body {
   padding-top: 5em;
   background: white;
 }
+
 .card-with-food-images {
   margin-right: 0px;
   margin-left: auto;
@@ -212,28 +227,34 @@ body {
   padding: 10px;
   box-shadow: 0px 0px 10px #000000;
 }
+
 .row_img{
   max-width: 100%;
   max-height: 100%;
   object-fit: fill;
 }
+
 .row_img img{
   object-fit: fill;
   margin: 0px;
   padding: 0px;
 }
+
 .content-1-text {
   float: right;
   text-align: left;
   margin-right: 15rem;
   margin-left: 3em;
 }
+
 .content-1-text h2{
   font-size: 40px;
 }
+
 .content-1-text h5{
   font-size: 25px;
 }
+
 .content-1-text p{
   font-size: 17px;
 }
@@ -244,11 +265,13 @@ body {
   box-shadow: 2px 0px 5px #F15A29;
   color: #F15A29;
 }
+
 .content-1-text a:hover{
   box-shadow: 5px 0px 15px #F15A29;
   color: #F15A29;
   text-decoration: none;;
 }
+
 .content-1-text .arrow {
   margin-left: 10px;
 }
@@ -261,6 +284,7 @@ body {
   margin-bottom: 0px;
   background: white;
 }
+
 .card-with-drink-images {
   margin-left: 0px;
   margin-right: auto;
@@ -268,31 +292,38 @@ body {
   padding: 10px;
   box-shadow: 0px 0px 10px #000000;
 }
+
 .row_2_img {
   padding: 0px;
   margin: 0px;
 }
+
 .row_2_img img{
   padding: 0px;
   margin: 0px;
   max-width: 100%;
   max-height: 100%;
 }
+
 .content-2-text {
   float: left;
   text-align: right;
   margin-left: 15rem;
   margin-right: 3em;
 }
+
 .content-2-text h2{
   font-size: 40px;
 }
+
 .content-2-text h5{
   font-size: 25px;
 }
+
 .content-2-text p{
   font-size: 17px;
 }
+
 .content-2-text a{
   border: 1px solid #F15A29;
   padding: 10px;
@@ -300,11 +331,13 @@ body {
   box-shadow: 2px 0px 5px #F15A29;
   color: #F15A29;
 }
+
 .content-2-text a:hover{
   box-shadow: 5px 0px 15px #F15A29;
   color: #F15A29;
   text-decoration: none;;
 }
+
 .content-2-text .arrow {
   margin-left: 10px;
 }
@@ -320,6 +353,7 @@ body {
   padding: 0px;
   overflow: hidden;
 }
+
 .navi-tabs {
   background: rgb(221, 221, 221);
   padding: 0;
@@ -329,9 +363,11 @@ body {
   text-align: center;
   width: 70%;
 }
+
 .navi-tabs .col-md-3{
   border-left: 0.3px solid rgba(180, 180, 180, 0.5);
 }
+
 .navi-tabs .active{
   margin: 0;
   padding: 10px;
@@ -340,9 +376,11 @@ body {
   color: #F15A29;
   border: none;
 }
+
 .navi-tabs .active p{
   margin: 10px 0;
 }
+
 .navi-tabs .dormant {
   background: rgb(221, 221, 221);
   margin: 0;
@@ -350,6 +388,7 @@ body {
   font-size: 16px;
   color: black;
 }
+
 .navi-tabs .dormant p{
   margin:10px 0;
 }
@@ -363,6 +402,7 @@ body {
   text-align: center;
   width: 70%;
 }
+
 .slider img {
   margin-left: auto;
   margin-right: auto;
@@ -370,6 +410,7 @@ body {
   max-height: 100%;
   margin-top: 2em;
 }
+
 .slider p{
   margin-top: 10px;
   color: #F15A29;
@@ -382,10 +423,12 @@ body {
   font-size: 45px;
   color: #F15A29;
 }
-#arrowLeft:hover{
+
+#arrowLeft:hover, #arrowRight:hover {
   cursor: pointer;
   font-size: 48px;
 }
+
 #arrowRight {
   padding: 0;
   margin-left: auto;
@@ -393,10 +436,6 @@ body {
   margin-top: 105px;
   font-size: 45px;
   color: #F15A29;
-}
-#arrowRight:hover {
-  cursor: pointer;
-  font-size: 48px;
 }
 
 /*End of picture slider section*/
@@ -431,13 +470,12 @@ body {
   color: #F15A29;
   font-weight: bold;
 }
-.happy-customers .customer-photos #arrowLeftContacts:hover {
-  cursor: pointer;
-}
+
 .happy-customers .customer-photos img {
   margin: 0px;
   padding: 0px;
 }
+
 .happy-customers .customer-photos #arrowRightContacts {
   text-align: left;
   margin-left: 0px;
@@ -446,12 +484,15 @@ body {
   color: #F15A29;
   font-weight: bold;
 }
-.happy-customers .customer-photos #arrowRightContacts:hover {
+
+ #arrowLeftContacts:hover,  #arrowRightContacts:hover {
   cursor: pointer;
 }
+
 .about-menu {
   text-align: center;
 }
+
 .about-menu-body {
   border-left: 0.3px solid rgba(111, 111, 111, 0.4);
  }
@@ -466,16 +507,19 @@ body {
   margin: 0;
   padding: 8em;
 }
+
 .subscribe-section p {
   text-align: center;
   color: white;
   font-size: 26px;
   font-weight: 200;
 }
+
 .subscribe-form {
   margin-left: auto;
   margin-right: auto;
 }
+
 .subscribe-form .email-input {
   background: rgba(255, 255, 255, 0.3);
   border: none;
@@ -483,9 +527,11 @@ body {
   margin-left: auto;
   margin-right: 10px;
 }
+
 .email-input::placeholder{
   color: white;
 }
+
 .subscribe-form .btn{
   color: white;
   background: #F15A29;
@@ -494,6 +540,7 @@ body {
   margin-left: 0;
   margin-right: auto;
 }
+
 .btn:hover{
   box-shadow: 0 0 10px #F15A29;
 }
@@ -505,16 +552,19 @@ body {
   padding-bottom: 5px;
   background: #F15A29
 }
+
 .business-detail{
   margin: 0;
   padding: 0;
 }
+
 .footer-logo{
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   text-align: right;
 }
+
 .business-details p{
   padding: 0;
   margin-left:auto;
@@ -523,6 +573,7 @@ body {
   font-size: 2em;
   color: white;
 }
+
 #slogan {
   padding: 0;
   margin-left: 2em;
@@ -531,14 +582,17 @@ body {
   color: white;
   font-size: 18px;
 }
+
 .social-media {
   text-align: center;
 }
+
 .social-media li{
   display: inline;
   list-style-type: none;
   padding: 10px;
 }
+
 #copyright {
   margin: 50px auto 0 2em;
   text-align: center;
