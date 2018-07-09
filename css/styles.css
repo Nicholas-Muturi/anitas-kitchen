@@ -1,10 +1,13 @@
 body {
-  background: black;
   font-family: 'Source Serif Pro', serif;
+  background: black;
 }
 
-.container {
-  background: rgba(111, 120, 238, 0.31);
+.navbar-menu-orange {
+  background: #F15A29;
+}
+.navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=000000');
 }
 
 /*Jumbotron styling*/
@@ -38,6 +41,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   text-align: center;
+  background: white;
 }
 /*End menu styling*/
 
@@ -60,11 +64,11 @@ body {
   font-size: 22px;
 }
 .happy-hour-row:hover{
-  cursor: grabbing;
+  cursor: pointer;
   text-decoration: underline;
 }
 .party-time-row:hover{
-  cursor: grabbing;
+  cursor: pointer;
   text-decoration: underline;
 }
 /*End of column 1*/
@@ -82,7 +86,7 @@ body {
 .menu-column-2:hover{
   background-image: url("../images/foodtop/breakfast.jpg");
   opacity: 0.5;
-  cursor: grabbing;
+  cursor: pointer;
   text-decoration: underline;
   color: black;
 }
@@ -90,6 +94,7 @@ body {
   font-size: 22px;
   margin-top: 70px;
 }
+
 /*End of Column 2*/
 
 /*Column 3: Lunch */
@@ -110,7 +115,7 @@ body {
   background-image: url("../images/foodtop/lunch.jpg");
   opacity: 0.5;
   color: black;
-  cursor: grabbing;
+  cursor: pointer;
   text-decoration: underline;
 }
 /*End of Column 3*/
@@ -132,7 +137,7 @@ body {
   background-image: url("../images/foodtop/dinner.jpg");
   opacity: 0.5;
   color: black;
-  cursor: grabbing;
+  cursor: pointer;
   text-decoration: underline;
 }
 /*End of Column 4*/
@@ -307,6 +312,10 @@ body {
   font-size: 45px;
   color: #F15A29;
 }
+#arrowLeft:hover {
+  font-size: 50px;
+  cursor: pointer;
+}
 #arrowRight {
   padding: 0;
   margin-left: auto;
@@ -314,6 +323,10 @@ body {
   margin-top: 105px;
   font-size: 45px;
   color: #F15A29;
+}
+#arrowRight:hover {
+  font-size: 50px;
+  cursor: pointer;
 }
 /*End of picture slider section*/
 
@@ -374,7 +387,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 8em;
+  padding: 10em;
 }
 .subscribe-section p {
   text-align: center;
